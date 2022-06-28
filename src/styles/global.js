@@ -11,13 +11,17 @@ export default createGlobalStyle`
     :root{
         --g50: #FFFFFF;
         --g100: #F5F5F5;
+        --g200: #BDBDBD;
+        --white: #FAFAFA;
         --black: #000;
         --orange: #FF7E2E;
     }
 
     body{
-        background-color: var(--g100);
+        background-color: var(--g50);
         color: var(--black);
+      
+    
     }
 
     body, input, button, h1, h2, h3{
